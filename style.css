@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: "popins",sans-serif; */
+}
+.section-center{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    /* border: 2px solid red; */
+    gap:1.5rem;
+    background:linear-gradient(hsl(248, 25%, 83%),#ebc6e2);
+}
+.gift-img{
+    width:33%;
+    height: 300px;
+    /* border: 2px solid red; */
+}
+.gift-img img{
+    width: 100%;
+    height: 100%;
+    border: 4px solid rgb(55, 34, 83);
+}
+.gift-info{
+    width: 46%;
+    height: 250px;
+}
+.gift-info h3{
+    /* font-family: 'Tangerine'; */
+    color: rgb(60, 146, 154);
+    font-size: 2em;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+}
+.giveaway{
+    font-size: 1.2em;
+    font-family: "Roboto", sans-serif;
+    color: rgb(46, 85, 46);
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    margin: 0.2em;
+}
+.gift-info p{
+margin: 2em 0.5em;
+font-size: 1em;
+font-family: "popins",sans-serif;
+}
+.deadline{
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    gap:2em;
+    margin: 0.5em;
+}
+.deadline .deadline-format{
+    width: 4.3em;
+    height: 4.3em;
+    border:2px solid rgb(28, 14, 42);
+    display: flex;
+    align-items: center;
+    background-color: rgb(59, 70, 82);
+    justify-content: center;
+    color: white;
+    flex-wrap: wrap;
+}
+.days,.hours,.secs{
+    font-size: 1.8em;
+    font-weight: 900;
+}
+.deadline-format>span{
+    font-size: 0.2em;
+}
+@media screen and (max-width:550px){ 
+    .section-center{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+        /* border: 2px solid red; */
+        gap:0.3rem;
+        background:linear-gradient(hsl(125, 30%, 63%),#b47fbe);
+    }
+    .gift-img{
+        width:90%;
+        height: auto;
+    }
+    .gift-img img{
+        width: 100%;
+        height: 100%;
+        border: 4px solid rgb(55, 34, 83);
+    }
+    .gift-info{
+        width: 90%;
+        height: auto;
+    }
+}
